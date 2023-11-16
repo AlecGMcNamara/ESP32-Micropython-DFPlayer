@@ -1,6 +1,6 @@
 # DFPlayer
 ESP32 Micropython DFPlayer
-Original Library from another GITHUB repository, will add credit when I find it agai - thanks
+Original Library from another GITHUB repository, will add credit when I find it again - thanks
 
 Just download 2 files main.py and dfplayer.py and send them to the ESP32 with Thonny
 
