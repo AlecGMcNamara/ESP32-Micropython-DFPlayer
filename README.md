@@ -8,8 +8,8 @@ Connections are written in main.py Just +5v GND RX and TX. Connect a Speaker and
 
 Added to original library:
 
-RANDOM function to library to allow easy playing and testing. Works without renaming tracks.
+RANDOM function to allow easy playing and testing. Works without renaming tracks.
 
-Got the is_playing function to work so you can detect the end of the track.
+Got the is_playing() function to work so you can detect the end of the tracks.
 
-Added timeout feature to send query and handle any errors.
+Added timeout feature to 'send_query()' function and catch errors.
