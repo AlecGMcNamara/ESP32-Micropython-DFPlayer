@@ -1,8 +1,13 @@
 # DFPlayer
- ESP32 Micropython DFPlayer
-Original Library from another GITHUB repository - thanks
-Just download 2 files main.py and dfplayer.py and sent them the the ESP32 with Thonny
+ESP32 Micropython DFPlayer
+Original Library from another GITHUB repository, will add credit when I find it agai - thanks
 
-Added RANDOM function to library to allow easy playing testing.
-Got the is_playing function to work.
-Added timeout feature to send query and capture errors
+Just download 2 files main.py and dfplayer.py and send them to the ESP32 with Thonny
+
+Added to original library:
+
+RANDOM function to library to allow easy playing and testing. Works without renaming tracks.
+
+Got the is_playing function to work so you can detect the end of the track.
+
+Added timeout feature to send query and handle any errors.
