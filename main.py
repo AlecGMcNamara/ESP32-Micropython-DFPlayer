@@ -4,7 +4,7 @@ from dfplayer import DFPlayer
 # esp32       dfplayer
 #  +5V          +5V
 #  GND          GND
-#  17  --1K--   RX
+#  17  --1K--   RX  (I think DFPlayer input is 3.3v?)
 #  16           TX
 
 df=DFPlayer(uart_id=1,tx_pin_id=17,rx_pin_id=16)
